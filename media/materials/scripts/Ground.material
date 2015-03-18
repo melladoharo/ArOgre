@@ -1,0 +1,44 @@
+material mat_Start
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture text_Start.jpg
+            }
+        }
+    }
+}
+
+
+material matStonePath
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture white-marble-texture.png
+            }
+        }
+    }
+}
+
+
+material matGround1
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture Ground_texture_VIII_by_tkrain_stock.jpg
+            }
+        }
+    }
+}
+

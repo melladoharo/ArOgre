@@ -1,0 +1,20 @@
+
+
+
+
+// blender material: mat_cube
+material mat_cube 
+{
+    receive_shadows on
+    technique b2ogre_1392200699.760523
+    {
+        pass b2ogre_1392200699.760599
+        {
+            ambient 0.616687 0.90461 1 0.5
+			diffuse 0.616687 0.90461 1 0.5
+			specular 1 1 1 1 20
+
+			scene_blend alpha_blend
+        }
+    }
+}

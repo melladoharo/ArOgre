@@ -1,0 +1,42 @@
+
+
+// blender material: statue
+material statue 
+{
+    technique b2ogre_1393332086.837197
+    {
+        pass b2ogre_1393332086.837266
+        {
+            ambient 1 1 1 0
+            diffuse 1 1 1 0
+            specular 0.0 0.0 0.0 1.0 12.0
+            emissive 0.0 0.0 0.0 1.0
+            
+            texture_unit b2ogre_1393332086.83815
+            {
+                texture statue_d.dds
+            }
+        }
+    }
+}
+
+// blender material: leafage
+material leafage 
+{
+    technique b2ogre_1393332086.850457
+    {
+        pass b2ogre_1393332086.850497
+        {
+            ambient 1 1 1 0
+            diffuse 1 1 1 0
+            specular 0.0 0.0 0.0 0.0 12.0
+            emissive 0.0 0.0 0.0 0.0
+           
+            texture_unit b2ogre_1393332086.850813
+            {
+                texture statue_d.dds
+                
+            }
+        }
+    }
+}

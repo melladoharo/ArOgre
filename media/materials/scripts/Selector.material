@@ -1,0 +1,87 @@
+
+material _missing_material_ 
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+            ambient 0.1 0.1 0.1 1.0
+            diffuse 0.8 0.0 0.0 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.3 0.3 0.3 1.0
+        }
+    }
+}
+
+
+// blender material: mat_Selector0
+material mat_Selector0 
+{
+    receive_shadows on
+    technique b2ogre_1377518048.318507
+    {
+        pass b2ogre_1377518048.318583
+        {
+            ambient 1.0 0.9333332777023315 0.9923667907714844 1.0
+            diffuse 0.800000011920929 0.7466666332880649 0.7938934444471215 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+        }
+    }
+}
+
+// blender material: mat_Selector1
+material mat_Selector1 
+{
+    receive_shadows on
+    technique b2ogre_1377518048.319584
+    {
+        pass b2ogre_1377518048.319629
+        {
+            ambient 0.08352833241224289 0.08352833241224289 0.08352833241224289 1.0
+            diffuse 0.06682266692552963 0.06682266692552963 0.06682266692552963 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+            texture_unit b2ogre_1377518048.320421
+            {
+                texture text_pair_selector.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op replace
+            }
+        }
+    }
+}

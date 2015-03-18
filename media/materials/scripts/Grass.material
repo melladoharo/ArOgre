@@ -1,0 +1,80 @@
+
+material _missing_material_ 
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+            ambient 0.1 0.1 0.1 1.0
+            diffuse 0.8 0.0 0.0 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.3 0.3 0.3 1.0
+        }
+    }
+}
+
+
+// blender material: mat_Grass_1
+material mat_Grass_1 
+{
+    receive_shadows on
+    technique b2ogre_1393847501.927665
+    {
+        pass b2ogre_1393847501.927741
+        {
+            ambient 0.11372549086809158 0.30588236451148987 0.007843137718737125 1.0
+            diffuse 0.09098039405018676 0.24470589525559383 0.006274510268487188 1.0
+            specular 0.4490196108818054 0.4490196108818054 0.4490196108818054 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+        }
+    }
+}
+
+// blender material: mat_Grass_2
+material mat_Grass_2 
+{
+    receive_shadows on
+    technique b2ogre_1393847501.92882
+    {
+        pass b2ogre_1393847501.928865
+        {
+            ambient 0.9333333373069763 0.6352941393852234 0.0 1.0
+            diffuse 0.7466666809717815 0.508235319081475 0.0 1.0
+            specular 0.4941176474094391 0.47647058963775635 0.4372549057006836 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+        }
+    }
+}

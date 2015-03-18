@@ -1,0 +1,19 @@
+
+
+// blender material: mat_crystal
+material mat_crystal 
+{
+    receive_shadows on
+    technique b2ogre_1367914383.073008
+    {
+        pass b2ogre_1367914383.073078
+        {
+            ambient 0 0 0.8 0.9
+            diffuse 0 0 0.6 0.85
+            specular 0.1 0.1 0.5 1.0 50.5
+            emissive 0.0 0.0 0.35 1.0
+            scene_blend alpha_blend
+			depth_write off
+        }
+    }
+}

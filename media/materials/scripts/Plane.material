@@ -1,0 +1,25 @@
+
+
+// blender material: mesh_plane
+material mesh_plane
+{
+    receive_shadows on
+    technique b2ogre_1392222758.3157
+    {
+        pass b2ogre_1392222758.315785
+        {
+        
+			scene_blend alpha_blend
+			depth_write off
+			
+            ambient 0.800000011920929 0.23464111983776093 0.007142973132431507 1
+			diffuse 0.640000019073486 0.18771289866734886 0.005714378591096081 1
+			specular 1 1 1 1 20
+			
+			texture_unit
+            {
+                text_Prueba.png
+            }
+        }
+    }
+}

@@ -1,0 +1,197 @@
+
+
+material solarSystem_Sun
+{
+    technique
+    {
+        pass
+        {   
+            ambient 1 1 1 1
+            diffuse 1 1 1 1
+            //specular 0 0 0 1 12
+            emissive 0 0 0 0
+
+			texture_unit
+            {
+                texture text_ss_sun.jpg
+            }
+        }
+    }
+}
+
+
+material solarSystem_Mercury
+{
+    technique
+    {
+        pass
+        {        
+            ambient 1 1 1 1
+            diffuse 1 1 1 1
+            specular 0 0 0 1 12
+            emissive 0 0 0 1
+			
+			texture_unit
+            {
+                texture text_ss_mercury.jpg
+            }
+        }
+    }
+}
+
+
+material solarSystem_Venus
+{
+    technique
+    {
+        pass
+        {        
+           ambient 1 1 1 1
+            diffuse 1 1 1 1
+            specular 0 0 0 1 12
+            emissive 0 0 0 1
+			
+			texture_unit
+            {
+                texture text_ss_venus.jpg
+            }
+        }
+    }
+}
+
+material solarSystem_Earth
+{
+    technique
+    {
+        pass
+        {        
+            ambient 1 1 1 1
+            diffuse 1 1 1 1
+            specular 0 0 0 1 12
+            emissive 0 0 0 1
+			
+			texture_unit
+            {
+                texture text_ss_earth.jpg
+            }
+        }
+    }
+}
+
+material solarSystem_Mars
+{
+    technique
+    {
+        pass
+        {        
+            ambient 1 1 1 1
+            diffuse 1 1 1 1
+            specular 0 0 0 1 12
+            emissive 0 0 0 1
+			
+			texture_unit
+            {
+                texture text_ss_mars.jpg
+            }
+        }
+    }
+}
+
+
+material solarSystem_Jupiter
+{
+    technique
+    {
+        pass
+        {        
+            ambient 1 1 1 1
+            diffuse 1 1 1 1
+            specular 0 0 0 1 12
+            emissive 0 0 0 1
+			
+			texture_unit
+            {
+                texture text_ss_jupiter.jpg
+            }
+        }
+    }
+}
+
+
+material solarSystem_Saturn
+{
+    technique
+    {
+        pass
+        {        
+            ambient 1 1 1 1
+            diffuse 1 1 1 1
+            specular 0 0 0 1 12
+            emissive 0 0 0 1
+			
+			texture_unit
+            {
+                texture text_ss_saturn.jpg
+            }
+        }
+    }
+}
+
+material solarSystem_SaturnRings
+{
+    technique
+    {
+        pass
+        {        
+            ambient 1 1 1 1
+            diffuse 1 1 1 1
+            specular 0 0 0 1 12
+            emissive 0 0 0 1
+			
+			texture_unit
+            {
+                texture text_ss_saturn_rings.jpg
+            }
+        }
+    }
+}
+
+
+material solarSystem_Uranus
+{
+    technique
+    {
+        pass
+        {        
+            ambient 1 1 1 1
+            diffuse 1 1 1 1
+            specular 0 0 0 1 12
+            emissive 0 0 0 1
+			
+			texture_unit
+            {
+                texture text_ss_uranus.jpg
+            }
+        }
+    }
+}
+
+
+material solarSystem_Neptune
+{
+    technique
+    {
+        pass
+        {        
+            ambient 1 1 1 1
+            diffuse 1 1 1 1
+            specular 0 0 0 1 12
+            emissive 0 0 0 1
+			
+			texture_unit
+            {
+                texture text_ss_neptune.jpg
+            }
+        }
+    }
+}
